@@ -1,0 +1,30 @@
+p.text{
+    border:1px solid black;
+    padding:10px;
+    width:600px;
+    
+    /* overflow:hidden; */
+    text-align: justify;
+    text-align-last: center;
+    text-decoration-line:underline;
+    text-decoration-color:red;
+    text-decoration-thickness:double;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 30px;
+    /* The text-indent property is used to specify the indentation of the first line of a text: */
+    text-indent: 200px;
+    /* The white-space property specifies how white-space inside an element is handled. */
+    white-space: nowrap;
+    /* In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px): */
+    text-shadow: 2px 2px red;
+}
+
+p .image{
+        vertical-align: sub;
+        /* super or text-top or text-bottom or sub */
+}
+
+
+/* The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines). */

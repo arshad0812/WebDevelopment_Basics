@@ -1,0 +1,24 @@
+p.background{
+    background: red;
+    opacity: 1.0;
+}
+
+
+
+div.image{
+    background-image: url("https://imgs.search.brave.com/MZcVw_uqMRXrrCdbi3wOUlSNxfZBENpSMzqYwLyE28c/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/aXN0b2NrcGhvdG8u/Y29tL3Jlc291cmNl/cy9pbWFnZXMvSG9t/ZVBhZ2UvRm91clBh/Y2svQzItUGhvdG9z/LWlTdG9jay0xMzU2/MTk3Njk1LmpwZw");
+    background-repeat: no-repeat;
+    background-position: right center;
+    max-width: 700px;
+    min-width: 100px;
+    min-height: 500px;
+    max-height: 700px;
+    background-color: rgb(235, 165, 115);
+    
+}
+
+div.image p{
+    margin-left: 200px;
+    color: aquamarine;
+    font-size: 25px;
+}

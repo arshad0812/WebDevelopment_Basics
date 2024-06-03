@@ -1,0 +1,17 @@
+
+
+*{
+    margin:0;
+}
+
+
+p.border{
+    padding: 10px;
+    border:3px solid brown;
+    border-left-style: dotted;
+    border-radius: 10px;
+    border-bottom:5px solid black;
+    background: violet;
+    margin: 10px;
+    outline:4px solid greenyellow;
+}

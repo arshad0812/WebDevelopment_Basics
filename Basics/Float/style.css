@@ -1,0 +1,35 @@
+
+
+.float1{
+    padding:5px;
+}
+
+.float1 div{
+    float: left;
+}
+
+
+.red{
+    background-color: red;
+}
+
+
+.green{
+    background-color: green;
+}
+
+.violet{
+    background-color: violet;
+}
+  .img1{
+    float:right;    
+  }
+
+
+  .float2{
+    border:2px solid green;
+    padding:10px;
+    overflow: auto;
+  }
+
+

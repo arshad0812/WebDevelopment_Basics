@@ -1,0 +1,36 @@
+/* Universal selector */
+*
+{
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+/* Class Selector */
+
+p.ClassSelector{
+    width:300px;
+    height: 20px;
+    background-color: aliceblue;
+
+}
+
+/* Id selector */
+
+p#IdSelector{
+    width:300px;
+    height: 20px;
+    background: yellow;
+}
+
+
+/* More than One Class Selector */
+p.MoreThanOneClass{
+    color: blue;
+    font-weight: 900px;
+}
+
+
+/* Group Seelctor */
+p.ClassSelector,p#IdSelector{
+    letter-spacing: 1px;
+}
+
