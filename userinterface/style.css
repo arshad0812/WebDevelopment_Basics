@@ -1,0 +1,7 @@
+.hordiv{
+    resize: both;
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    overflow: auto;
+}

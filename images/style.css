@@ -1,0 +1,27 @@
+/* .image1{
+    border: 2px solid grey;
+    padding:5px;
+    width: 600px;
+    height: 300px;
+}
+
+.image2{
+    border: 2px solid grey;
+    padding:5px;
+    width: auto;
+    height:auto;
+}
+
+.image3{
+    border: 2px solid grey;
+    padding:5px;
+    min-width: 200px;
+    min-height:200px
+} */
+
+.fourthimage{
+    border: 2px solid grey;
+    padding:5px;
+    max-height: 10%;
+    max-width: 90%;
+}

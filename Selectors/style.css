@@ -1,0 +1,40 @@
+/* Universal selector */
+*
+{
+    font-family: 'Courier New', Courier, monospace; 
+    width:300px;
+    height: 20px;
+   
+}
+
+/* Class Selector */
+
+p.ClassSelector{
+    background-color: aliceblue;
+
+}
+
+/* Id selector */
+
+p#IdSelector{
+    background: yellow;
+}
+
+
+/* More than One Class Selector */
+.MoreThanOneClass{
+    color: blue;
+    font-weight: 900px;
+}
+
+
+/* Group Seelctor */
+p.ClassSelector,p#IdSelector{
+    letter-spacing: 1px;
+}
+
+/* Atrribute Selector */
+p[class="AttributeSelector"]{
+    color:red;
+    background-color: blue;
+}

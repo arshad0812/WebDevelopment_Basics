@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .anim1{
+            width:300px;
+            height:200px;
+            background-color: bisque;
+            animation-name: anime1;
+            animation-duration:5s;
+            /* animation-play-state: paused */
+        }
+        
+        
+        @keyframes anime1{
+            from{
+        
+            }
+            to{
+                background-color: red;
+            }
+        }
+        
+        
+        
+        .anim2{
+            width:100px;
+            height:100px;
+            background-color: bisque;
+            animation-name: anime2;
+            animation-duration:4s;
+            animation-delay: 2s;
+            animation-timing-function: ease;
+        }
+        
+        @keyframes anime2{
+            0%{
+                background-color: bisque;
+                width: 100px;
+                height: 100px;
+            }
+            50%{
+                background-color: orange;
+                width:120px;
+                height:120px;
+            }
+            100%{
+                background-color: red;
+                width:130px;
+                height: 130px;
+            }
+        }
+        
+        
+        .anim3{
+            width:100px;
+            height:100px;
+            background-color: bisque;
+            animation-name: anime3;
+            animation-duration:2s;
+            position: relative;
+            border:1px solid black;
+            animation-iteration-count: 2;
+            animation-timing-function: ease;
+        }
+        
+        
+        @keyframes anime3{
+            0%{
+                background-color: bisque;
+                left:0;
+                top:0;
+            }
+            25%{
+                background-color: orange;
+                left:520px;
+                top:0;
+            }
+            50%{
+                background-color: rgb(227, 60, 14);
+                top:120px;
+                left:520px;
+         
+            }
+            100%{
+                background-color: red;
+                left:0px;
+                top:120px
+                
+            }
+        } 
+    </style>
+</head>
+<body>
+
+    <h1>CSS Animation 1</h1>
+    <div class="anim1"></div>
+    <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+    <h1>CSS Animation 2 </h1>
+    <div class="anim2"></div>
+    <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+
+    <h1>CSS Animation 3 </h1>
+    <div class="anim3"></div>
+    <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+    
+
+
+</body>
+</html>

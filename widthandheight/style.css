@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(58, 144, 231);
+}
+
+
+div.div1
+{
+    max-width: 800px;
+    min-width: 400px;
+    height:100px;
+    margin: 10px;
+    background-color: blueviolet;
+}

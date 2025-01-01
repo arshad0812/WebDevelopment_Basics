@@ -1,0 +1,11 @@
+
+ul{
+    list-style: circle;
+    background-color: black;
+}
+
+li{
+    background-color: grey;
+    color:white;
+    margin:5px;
+}

@@ -1,0 +1,10 @@
+.mask1{
+    mask-image: url("./w3logo.png");
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url("./w3logo.png");
+}
+
+
+.mask2{
+    mask-image: linear-gradient(black,transparent);
+}

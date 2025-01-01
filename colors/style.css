@@ -1,0 +1,16 @@
+p.RGB{
+    color:rgb(255, 99, 71, 0.4);
+}
+
+p.HEX
+{
+    color:#787878
+}
+
+p.HSL{
+    color:(0, 100%, 50%);
+}
+
+p{
+    font-size: 40px;
+}
