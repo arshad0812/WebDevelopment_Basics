@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+    .grad1 {
+      height: 200px;
+      margin-top:50px;  
+      background-color: red; /* For browsers that do not support gradients */
+      background-image: linear-gradient(red, yellow);
+    }
+    
+    #grad2 {
+        margin-top:50px;  
+        height: 200px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right,red, yellow);
+      }
+    
+    #grad3 {
+        margin-top:50px;  
+        height: 200px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to top,red, yellow);
+      }
+    
+      #grad4 {
+        margin-top:50px;  
+        height: 200px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: linear-gradient(red, yellow,blue,black);
+      }
+    
+      #grad5{
+        height: 200px;
+        background-image: linear-gradient(to right,rgba(229, 214, 214, 0),rgba(211,93,93,1));
+      }
+    
+      #grad6{
+        height: 300px;
+        background-image: radial-gradient(red,blue);
+      }
+    
+    
+    
+  </style>
+</head>
+<body>
+      <h1>Linear Gradient - Top to Bottom</h1>
+      <p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+      <div class="grad1"></div>
+      <h1>Linear Gradient - left to right</h1>
+      <div id="grad2"></div>
+      <h1>Linear Gradient - bottom to top</h1>
+      <div id="grad3"></div>
+      <h1>mulitple Gradient - Top to Bottom</h1>
+      <div id="grad4"></div>
+      <h1>Linear Gradient - Transparency</h1>
+      <div id="grad5"></div>
+
+
+      <h1>Radial Gradient - Evenly Spaced Color Stops</h1>
+      <div id="grad6"></div>
+</body>
+</html>
+

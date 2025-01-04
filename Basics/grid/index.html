@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .grid1{
+            display:grid;
+            padding:10px;
+            background-color: antiquewhite;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 80px 200px;
+            justify-content: space-between;
+        }
+        
+        
+        .griditem{
+            padding:10px;
+            font-size: 20px;
+            text-align: center;
+            background-color: royalblue;
+            border: 1px solid rgb(18, 19, 18);
+        }
+        
+        .griditem1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            padding:10px;
+            font-size: 20px;
+            text-align: center;
+            background-color: royalblue;
+            border: 1px solid rgb(18, 19, 18);
+        
+        }
+        
+        .grid2{
+            display:inline-grid;
+            padding:10px;
+            width:100%;
+            background-color: antiquewhite;
+            grid-template-columns: 40% 40% 20%;
+        }
+        
+        
+        .ingriditem{
+            padding:10px;
+            font-size: 20px;
+            text-align: center;
+            background-color: royalblue;
+            border: 1px solid rgb(18, 19, 18);
+        
+        
+        }
+         
+    </style>
+</head>
+<body>
+    <h1>Grid</h1>
+    <div class="grid1">
+        <div class="griditem1">HI</div>
+        <div class="griditem" >HI</div>
+        <div class="griditem" >Hello</div>
+        <div class="griditem" >Hello</div>
+        <div class="griditem" >HI</div>
+    </div>
+    <h1>Inline-Grid</h1>
+    <div class="grid2">
+        <div class="ingriditem">HI</div>
+        <div class="ingriditem" >HI</div>
+        <div class="ingriditem" >Hello</div>
+        <div class="ingriditem" >Hello</div>
+        <div class="ingriditem" >HI</div>
+
+    </div>
+
+</body>
+</html>

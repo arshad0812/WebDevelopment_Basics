@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex </title>
+    <style>
+
+    div.flexparent1{
+        display: flex;
+        background-color: red;
+        flex-wrap:  wrap;
+        width:90%;
+    }
+    
+    div.flexparent2{
+        display: flex;
+        background-color: red;
+        flex-wrap: nowrap;
+    }
+    
+    
+    div.flexparent1 > div{
+        margin: 5px;
+        padding:5px;
+        width:100px;
+        height:100px;
+        background-color: bisque;
+    }
+    
+    
+    div.flexparent2 > div{
+        margin: 5px;
+        padding:5px;
+        width:100px;
+        height:100px;
+        background-color: bisque;
+    }
+    
+    
+    .flex10{
+        flex-grow:8;
+        flex-shrink:0;
+    }
+    
+      
+    .flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}   
+
+    </style>
+</head>
+
+<body>
+    <h1>wrap means box doenst shirnks</h1>
+    <div class="flexparent1">
+        <div>HI</div>
+        <div>Hello</div>
+        <div>Bye</div>
+        <div>HI</div>
+        <div>Hello</div>
+        <div>Bye</div>
+        <div>HI</div>
+        <div>Hello</div>
+        <div>Bye</div>
+    </div>
+
+    <h1>Nowrap means box shrinks</h1>
+    <div class="flexparent2">
+        <div>HI</div>
+        <div>Hello</div>
+        <div>Bye</div>
+        <div>HI</div>
+        <div>Hello</div>
+        <div>Bye</div>
+        <div>HI</div>
+        <div>Hello</div>
+        <div class="flex10">Flex grow and shrink</div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item-left">1</div>
+        <div class="flex-item-right">2</div>
+      </div>
+</body>
+</html>

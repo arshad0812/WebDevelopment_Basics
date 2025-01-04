@@ -1,0 +1,38 @@
+
+.para{
+    display:none;
+}
+
+
+.btn{
+    display:inline;
+    border:1px solid black;
+    background-color: rgb(209, 122, 209);
+    padding: 10px;
+}
+
+
+div:hover .para{
+    border:1px solid black;
+    background-color: rgb(209, 122, 209);
+    padding: 10px;
+    display: inline;
+}
+
+
+p:first-child
+{
+    color:rgb(35, 179, 157);
+}
+
+    /* first child of i inside of first child of p */
+div p:first-child i:first-child{
+    color:blue;
+}
+
+
+p::first-letter{
+    color:red;
+}
+
+

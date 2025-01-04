@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Position</h1>
+
+    <h2>Static</h2>
+    <div class="static">Hi,Im static Element,Static positioned elements are not affected by the top, bottom, left, and right properties.
+        An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</div>
+
+     <h2>Relative moved towards left 10px</h2>
+    <div class="relaative">
+        An element with position: relative; is positioned relative to its normal position.
+        Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+    </div>
+
+    <div class="fixed">
+        <h2>Fixed</h2>
+        An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:
+    </div>
+
+    <h2>Absolute</h2>
+    <div class="relative1">
+        This div element has position: relative;
+        <div class="absolute1">
+            This div element has position: absolute;
+        </div>
+    </div>
+    
+    <h1>Z-index</h1>
+    <div class="zindex">This div element has position: relative; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet... 
+       <img class="img3" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="170" height="170">
+       <div class="inner-index"><p>Hi,Im Inner index</p></div>
+
+    </div>
+
+    
+    <h1 style="text-align:center;">Display Float</h1>
+    <h1 style="text-align:center;">Float left</h1>
+   
+    <div class="float">
+        <div class="staticDiv">
+            <div class="float1">
+                <div class="red">Red</div>
+                <div class="green">Green</div>
+                <div class="black">Black</div>
+            </div>
+        </div>
+
+        <h1 style="text-align:center;">Float left with image</h1>
+        
+        
+            <div class="float2">
+                <img class="img1" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="170" height="170">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+            </div> 
+       
+
+        <h1 style="text-align:center;">Float left with div</h1>
+        <div>
+            <div class="float2">
+                <div class="img1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...</div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+            </div> 
+        </div>
+    </div>
+
+    <h1 style="text-align:center;">Display relative</h1>
+    <div class="relative">This div element has position: relative;
+        <div class="absolute">This div element has position: absolute;</div>
+      </div>
+      <h1 style="text-align:center;">Display relative with image</h1>
+     <div class="relative">This div element has position: relative;
+        <img class="img2" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="170" height="170">
+     </div>
+
+  
+
+</body>
+</html>

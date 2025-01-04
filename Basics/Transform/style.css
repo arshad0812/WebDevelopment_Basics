@@ -1,0 +1,144 @@
+div.translate{
+    width:300px;
+    height:100px;
+    border:1px solid green;
+    transform: translate(50px,60px);
+    /* 50px to right */
+    /* 60px to left */
+    background-color: rgb(172, 122, 219);
+    margin-bottom:100px;
+}
+
+div.rotate{
+    widTh:300px;
+    height:100px;
+    border:1px solid black;
+    background-color: rgb(78, 78, 186);
+    margin-left:0;
+    transform: rotate(20deg);
+}
+
+
+div.parentX{
+    position:relative;
+    width:500px;
+    height: 250px;
+    border: 2px solid black;
+    perspective: 100px;
+    perspective-origin: right;
+    
+}
+div.rotatex{
+    position: absolute;
+    lefT:90px;
+    widTh:300px;
+    height:100px;
+    border:1px solid black;
+    background-color: rgb(78, 78, 186);
+    margin-top:90px;
+    transform: rotateX(20deg);
+    
+}
+
+div.rotatey{
+    widTh:300px;
+    position: absolute;
+    lefT:90px;
+    height:100px;
+    border:1px solid black;
+    background-color: rgb(78, 78, 186);
+    margin-top:90px;
+    transform: rotateY(190deg);
+}
+
+div.rotatez{
+    position: absolute;
+    lefT:90px;
+    widTh:300px;
+    height:100px;
+    border:1px solid black;
+    background-color: rgb(78, 78, 186);
+    margin-top:90px;
+    transform: rotate(20deg);
+}
+
+
+
+div.scale{
+    widTh:300px;
+    height:100px;
+    border:1px solid black;
+    background-color: rgb(99, 180, 214);
+    margin-top:90px;
+    margin-left:200px;
+    transform: scale(1,2);
+    /* 1 for width
+    2 for height */
+}
+
+
+
+
+
+div.scalex{
+    widTh:300px;
+    height:100px;
+    border:1px solid black;
+    background-color: rgb(51, 136, 201);
+    margin-top:90px;
+    margin-left:200px;
+    transform: scaleX(-1);
+    /* 1 for width
+    2 for height */
+}
+
+
+
+
+.div1{
+    position: relative;
+    width:400px;
+    height:200px;
+    border: 2px solid black;
+
+}
+
+.div2{
+    background-color: bisque;
+    width:250px;
+    height: 100px;
+    position: absolute;
+    transform: rotatez(-30deg);
+    transform-origin: 100px 100px;
+}
+
+
+.div4{
+    position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+
+.div5{
+    padding: 50px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: red;
+  transform: rotateY(110deg);
+  transform-style:preserve-3d;
+
+}
+
+.div6{
+    padding: 40px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: yellow;
+    transform: rotateY(-150deg);
+
+}
+

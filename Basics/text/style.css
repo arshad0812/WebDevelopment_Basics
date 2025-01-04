@@ -2,7 +2,7 @@ p.text{
     border:1px solid black;
     padding:10px;
     width:600px;
-    
+    height:100px;   
     /* overflow:hidden; */
     text-align: justify;
     text-align-last: center;
@@ -16,9 +16,9 @@ p.text{
     /* The text-indent property is used to specify the indentation of the first line of a text: */
     text-indent: 200px;
     /* The white-space property specifies how white-space inside an element is handled. */
-    white-space: nowrap;
+    white-space: wrap;
     /* In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px): */
-    text-shadow: 2px 2px red;
+    text-shadow:  red;
 }
 
 p .image{
@@ -27,4 +27,53 @@ p .image{
 }
 
 
-/* The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines). */
+p.textoverflow1{
+        width:100px;
+        height: 50px;
+        overflow: hidden;
+        white-space: nowrap; 
+        text-overflow: clip;
+        border: 1px solid black;
+}
+
+
+
+p.textoverflow2{
+    width:100px;
+    height: 50px;   
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    border: 1px solid black;
+}
+
+
+p.wordbreak1{
+    width:200px;
+    word-wrap: break-word;
+    border:1px solid black;
+}
+
+p.wordbreak2{
+    width:200px;
+    word-wrap: keep-all;
+    border:1px solid black;
+}
+
+p.wordbreak3{
+    width:200px;
+    word-wrap: break-all;
+    border:1px solid black;
+}
+
+
+p.writingmode1{
+
+    writing-mode: vertical-rl;
+}
+
+
+p.writingmode2{
+
+    writing-mode: horizontal-tb;
+}

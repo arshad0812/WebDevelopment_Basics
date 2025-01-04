@@ -1,5 +1,5 @@
 
-
+    
 *{
     margin:0;
 }
@@ -12,6 +12,6 @@ p.border{
     border-radius: 10px;
     border-bottom:5px solid black;
     background: violet;
-    margin: 10px;
+    margin: 100px;
     outline:4px solid greenyellow;
 }
